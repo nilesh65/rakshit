@@ -6,6 +6,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Fab from "./components/Fab";
 import Process from "./components/Process";
+import FAQSection from "./components/Faq";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Process />
         <Portfolio />
         <Contact />
+        <FAQSection />
       </main>
 
       {/* Footer */}
