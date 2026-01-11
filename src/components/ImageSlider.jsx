@@ -2,14 +2,14 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const images = [
-  "/master bed room 3d view 001.jpg",
-  "/IMG-20251204-WA0013.jpg",
-  "/IMG-20251204-WA0021.jpg",
-  "/IMG-20251204-WA0015.jpg",
-  "/BED ROOM (2) 3D VIEW 002-1.jpg",
-  "/BED ROOM (2) 3D VIEW 003.jpg",
-  "/LIVING AND DINING AREA 3D VIEW 005.jpg",
-  "/BED ROOM (1) 3D VIEW 001.jpg"
+  import.meta.env.VITE_PORTFOLIO_IMG1,
+  import.meta.env.VITE_PORTFOLIO_IMG2,
+  import.meta.env.VITE_PORTFOLIO_IMG3,
+  import.meta.env.VITE_PORTFOLIO_IMG4,
+  import.meta.env.VITE_PORTFOLIO_IMG5,
+  import.meta.env.VITE_PORTFOLIO_IMG6,
+  import.meta.env.VITE_PORTFOLIO_IMG7,
+  import.meta.env.VITE_PORTFOLIO_IMG8
 ];
 
 export default function ImageSlider() {

@@ -3,11 +3,11 @@ import { motion, AnimatePresence } from "framer-motion";
 import { FaArrowRight, FaArrowLeft, FaVolumeMute, FaVolumeUp } from "react-icons/fa";
 
 const videos = [
-  "/video1.mp4",
-  "/video2.mp4",
-  "/video3.mp4",
-  "/video4.mp4",
-  "/video5.mp4",
+  import.meta.env.VITE_VIDEO1,
+  import.meta.env.VITE_VIDEO2,
+  import.meta.env.VITE_VIDEO3,
+  import.meta.env.VITE_VIDEO4,
+  import.meta.env.VITE_VIDEO5
 ];
 
 export default function VideoSlider() {

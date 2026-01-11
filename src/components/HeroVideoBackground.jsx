@@ -3,7 +3,7 @@ export default function HeroVideoBackground() {
     <div className="absolute inset-0 z-0 overflow-hidden">
       <video
         className="w-full h-full object-cover"
-        src="/hero-video.mp4"
+        src={import.meta.env.VITE_VIDEO_HERO}
         autoPlay
         loop
         muted

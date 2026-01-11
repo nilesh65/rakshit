@@ -31,7 +31,7 @@ export default function Navbar() {
   
 >
   <img
-    src="/tar.png"
+    src={import.meta.env.VITE_LOGO}
     alt="Rakshit Interiors Logo"
     className="
       h-8 sm:h-9 md:h-10

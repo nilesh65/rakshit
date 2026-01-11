@@ -3,15 +3,15 @@ import { motion } from "framer-motion";
 const services = [
   {
     title: "Complete Home Interiors",
-    img: "/IMG-20251204-WA0019.jpg",
+    img: import.meta.env.VITE_SERVICE_IMG1
   },
   {
     title: "Commercial Interior Design",
-    img: "/IMG-20251204-WA0011.jpg",
+    img: import.meta.env.VITE_SERVICE_IMG2
   },
   {
     title: "Customised Interior Solutions",
-    img: "/IMG-20251204-WA0014.jpg",
+    img: import.meta.env.VITE_SERVICE_IMG3
   },
 ];
 
