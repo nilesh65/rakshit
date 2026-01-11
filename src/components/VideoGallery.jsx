@@ -59,11 +59,13 @@ export default function VideoSlider() {
         {/* Navigation Arrows */}
         <button
           onClick={prevVideo}
+          aria-label="left-button"
           className="absolute left-0 top-1/2 -translate-y-1/2 bg-black/40 text-yellow-400 p-3 rounded-full hover:bg-black/60 transition"
         >
           <FaArrowLeft />
         </button>
         <button
+        aria-label="right-button"
           onClick={nextVideo}
           className="absolute right-0 top-1/2 -translate-y-1/2 bg-black/40 text-yellow-400 p-3 rounded-full hover:bg-black/60 transition"
         >
@@ -72,6 +74,7 @@ export default function VideoSlider() {
 
         {/* Mute Button */}
         <button
+        aria-label="audio-button"
           onClick={toggleMute}
           className="absolute bottom-4 right-4 bg-black/50 text-yellow-400 p-2 rounded-full hover:bg-black/70 transition"
         >
