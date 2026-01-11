@@ -36,7 +36,7 @@ export default function Footer() {
                     <div className="flex items-center gap-3">
                         <FaEnvelope className="text-yellow-400" />
                         <a href={`mailto:${mail}`} className="hover:underline text-yellow-200">
-                             {mail}
+                            {mail}
                         </a>
                     </div>
                     <div className="flex items-center gap-3">
@@ -55,11 +55,12 @@ export default function Footer() {
                     </p>
                     {/* Add social icons here if needed */}
                     <a
-  href={fb_link}
-  target="_blank"
-  rel="noopener noreferrer"
-  alt="facebook-link"
-  className="
+                        href={fb_link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="facebook-link"
+                        alt="facebook-link"
+                        className="
     w-10 h-10
     flex items-center justify-center
     rounded-full
@@ -68,9 +69,9 @@ export default function Footer() {
     hover:bg-yellow-400 hover:text-black
     transition duration-300
   "
->
-  <FaFacebookF className="text-lg" />
-</a>
+                    >
+                        <FaFacebookF className="text-lg" />
+                    </a>
                 </div>
 
             </div>
