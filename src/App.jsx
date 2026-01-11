@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Fab from "./components/Fab";
 import Process from "./components/Process";
 import FAQSection from "./components/Faq";
+import VideoGallery from "./components/VideoGallery";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Services />
         <Process />
         <Portfolio />
+        <VideoGallery />
         <Contact />
         <FAQSection />
       </main>

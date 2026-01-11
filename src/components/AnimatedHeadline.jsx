@@ -88,9 +88,11 @@ export default function AnimatedHeadline() {
 
   return (
     <div className="text-center px-4 sm:px-6 md:px-8 lg:px-0">
-      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-snug md:leading-tight tracking-tight md:tracking-normal">
-        {renderLine(displayed[0], "font-extrabold")}
-        {renderLine(displayed[1], "mt-2 font-semibold text-black/90")}
+      <h1 
+      style={{ fontFamily: "'Playfair Display', serif" }}
+      className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-snug md:leading-tight tracking-tight md:tracking-normal ">
+        {renderLine(displayed[0], "font-extrabold text-white/90")}
+        {renderLine(displayed[1], "mt-2 font-semibold text-white/40")}
       </h1>
     </div>
   );

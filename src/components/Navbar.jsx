@@ -10,6 +10,7 @@ export default function Navbar() {
     { label: "Services", href: "#services" },
     { label: "Portfolio", href: "#portfolio" },
     { label: "Contact", href: "#contact" },
+    {label: "Video Gallery", href: "#video"}
   ];
 
   return (
@@ -17,7 +18,7 @@ export default function Navbar() {
       initial={{ y: -80, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="fixed top-0 w-full z-50 bg-black/70 backdrop-blur-md border-b border-yellow-400/40"
+      className="fixed top-0 w-full z-50 bg-white/50  border-b border-yellow-400/40"
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-3">
 
