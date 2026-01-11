@@ -4,7 +4,9 @@ import HeroVideoBackground from "./HeroVideoBackground";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center px-6 pt-24 overflow-hidden">
+    <section className="relative min-h-screen bg-black flex flex-col items-center justify-center px-6 pt-24 overflow-hidden">
+
+
       
       {/* Video Background */}
       <HeroVideoBackground />
