@@ -45,7 +45,7 @@ ${message}
 
     window.open(whatsappUrl, "_blank");
     form.reset();
-    alert("Message sent successfully via WhatsApp!");
+    
   };
 
   return (
