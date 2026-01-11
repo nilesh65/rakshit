@@ -58,6 +58,7 @@ export default function Footer() {
   href={fb_link}
   target="_blank"
   rel="noopener noreferrer"
+  alt="facebook-link"
   className="
     w-10 h-10
     flex items-center justify-center
